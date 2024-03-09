@@ -100,7 +100,7 @@ while True:
 
 key = None
 while True:
-    key = input("Enter encoding key: ")
+    key = input("Enter encryption key: ")
     if valid_key(key):
         break
     else:
